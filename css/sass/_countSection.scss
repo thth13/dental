@@ -1,0 +1,32 @@
+.counters {
+	background-color: #6eb0f2;
+	min-height: 214px;
+	margin-top: 62px;
+	opacity: 0.9;
+	margin-bottom: 50px;
+	padding: 0.1px;
+
+	&-list {
+		color: white;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		margin: 0 auto;
+		align-items: center;
+		margin-top: 66px;
+
+		&__item {
+			margin-right: 50px;
+		}
+	}
+
+	&-count {
+		font-family: 'Acrom Extra Bold';
+		font-size: 48px;
+	}
+
+	&-text {
+		font-family: 'Acrom Medium';
+		font-size: 13px;
+	}
+}

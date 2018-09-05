@@ -1,0 +1,475 @@
+@font-face {
+  font-family: 'Acrom Extra Bold';
+  src: url("../fonts/Acrom-ExtraBold.eot");
+  src: url("../fonts/Acrom-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Acrom-ExtraBold.woff") format("woff"), url("../fonts/Acrom-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Acrom Medium';
+  src: url("../fonts/Acrom-Medium.eot");
+  src: url("../fonts/Acrom-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Acrom-Medium.woff") format("woff"), url("../fonts/Acrom-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px; }
+  .header-logo {
+    font-size: 30px;
+    color: #6eb0f2;
+    font-family: 'Acrom Extra Bold';
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-right: 4.7em; }
+    .header-logo__image {
+      width: 26px; }
+  .header-list {
+    list-style: none;
+    color: #6eb0f2;
+    font-family: 'Acrom Extra Bold';
+    text-transform: uppercase; }
+    .header-list__item {
+      margin-right: 23px;
+      display: inline-block;
+      cursor: pointer; }
+
+.main {
+  width: 100%;
+  height: 709px;
+  margin-top: 20px;
+  color: white;
+  padding: 0.1px;
+  background-image: url("../img/mainBackground.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1500px 750px; }
+  .main-background {
+    background-image: url("../img/back.svg");
+    width: 45em;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right; }
+  .main-description {
+    font-family: 'Acrom Medium';
+    width: 475px;
+    margin-left: 110px;
+    padding-top: 150px; }
+    .main-description__logo {
+      font-size: 65px;
+      font-family: 'Acrom Extra Bold';
+      text-transform: uppercase; }
+      .main-description__logo img {
+        width: 65px; }
+    .main-description__text1 {
+      font-size: 18px;
+      text-transform: uppercase;
+      line-height: 38px; }
+    .main-description__text2 {
+      font-size: 32px; }
+    .main-description__text3 {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .main-description__button {
+      color: #6eb0f2;
+      font-family: 'Acrom Extra Bold';
+      font-size: 15px;
+      text-transform: uppercase;
+      background-color: white;
+      box-shadow: 1px 1px 17px 1px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      width: 325px;
+      height: 40px;
+      cursor: pointer; }
+  .main-social {
+    display: flex;
+    margin-left: 110px;
+    margin-top: 125px; }
+    .main-social__instagram {
+      width: 23px;
+      height: 23px;
+      background-image: url("../img/instagram.svg");
+      background-image: no-repeat;
+      background-size: cover;
+      margin-right: 10px; }
+    .main-social__facebook {
+      width: 23px;
+      height: 23px;
+      background-image: url("../img/facebook.svg");
+      background-image: no-repeat;
+      background-size: cover; }
+
+.services {
+  margin-bottom: 15px;
+  margin-top: 65px; }
+  .services-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px; }
+  .services-item {
+    display: flex;
+    align-items: center;
+    flex: 0 0 33.3333%;
+    margin-bottom: 50px; }
+    .services-item__logo {
+      width: 60px;
+      height: 60px;
+      box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.09);
+      margin-right: 20px;
+      border-radius: 8px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 62%; }
+    .services-item__text {
+      font-family: 'Acrom Extra Bold';
+      text-transform: uppercase;
+      color: #7a7a7a; }
+  .services-logo1 {
+    background-image: url("../img/item1.svg"); }
+  .services-logo2 {
+    background-image: url("../img/item2.svg"); }
+  .services-logo3 {
+    background-image: url("../img/item3.svg"); }
+  .services-logo4 {
+    background-image: url("../img/item4.svg"); }
+  .services-logo5 {
+    background-image: url("../img/item5.svg"); }
+  .services-logo6 {
+    background-image: url("../img/item6.svg"); }
+
+.howwork {
+  background-color: #f5f5f5;
+  width: 100%;
+  min-height: 725px;
+  margin-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 20px; }
+  .howwork-slider {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .howwork-slider__image {
+      width: 750px;
+      margin: 0 40px; }
+
+.specialist-list {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px; }
+
+.specialist-item {
+  margin-right: 40px;
+  width: 275px;
+  height: 355px;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.09);
+  background-size: 275px;
+  background-repeat: no-repeat; }
+  .specialist-item__info {
+    margin-top: 290px;
+    text-align: center; }
+  .specialist-item__name {
+    color: #6eb0f2;
+    font-family: 'Acrom Extra Bold';
+    text-transform: uppercase; }
+  .specialist-item__position {
+    margin-top: 10px;
+    font-family: 'Acrom Medium';
+    color: #7a7a7a; }
+
+.specialist-photo1 {
+  background-image: url("../img/spec1.png"); }
+
+.specialist-photo2 {
+  background-image: url("../img/spec2.png"); }
+
+.specialist-photo3 {
+  background-image: url("../img/spec3.png"); }
+
+.counters {
+  background-color: #6eb0f2;
+  min-height: 214px;
+  margin-top: 62px;
+  opacity: 0.9;
+  margin-bottom: 50px;
+  padding: 0.1px; }
+  .counters-list {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 66px; }
+    .counters-list__item {
+      margin-right: 50px; }
+  .counters-count {
+    font-family: 'Acrom Extra Bold';
+    font-size: 48px; }
+  .counters-text {
+    font-family: 'Acrom Medium';
+    font-size: 13px; }
+
+.aboutspeak-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  margin-bottom: 100px; }
+
+.aboutspeak-item {
+  margin-top: 12px;
+  width: 270px;
+  min-height: 150px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.16);
+  border-bottom: 5px solid #70abe6;
+  padding: 0 50px;
+  padding-bottom: 20px; }
+  .aboutspeak-item__name {
+    color: #6eb0f2;
+    font-size: 16px;
+    margin-left: -75px;
+    font-family: 'Acrom Extra Bold';
+    text-transform: uppercase;
+    display: inline-block;
+    transform: translate(0%, -180%); }
+  .aboutspeak-item__text {
+    color: #7a7a7a;
+    font-family: 'Acrom Medium';
+    font-size: 11px;
+    margin-top: -5px; }
+  .aboutspeak-item__image {
+    border: 1px solid #70abe6;
+    border-radius: 50%;
+    position: relative;
+    width: 25%;
+    top: -15px;
+    left: 50%;
+    transform: translate(-50%, 0); }
+
+.news {
+  padding: 50px 0;
+  background-color: #f5f5f5; }
+  .news-items {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; }
+  .news-item {
+    margin: 0 20px;
+    min-height: 400px;
+    overflow: hidden;
+    width: 230px; }
+    .news-item__img {
+      width: 250px; }
+    .news-item__h3 {
+      font-family: "Acrom Extra Bold";
+      color: #6eb0f2;
+      font-size: 16px;
+      width: 190px; }
+    .news-item__text {
+      font-family: "Acrom Medium";
+      margin-top: 10px;
+      color: #7a7a7a;
+      font-weight: light;
+      font-size: 12px;
+      max-width: 220px; }
+    .news-item__buttons {
+      margin-top: 20px;
+      border-top: 1px solid #c4c4c4; }
+
+.contacts {
+  margin-bottom: 300px;
+  margin-top: 210px; }
+
+.contacts-form {
+  text-align: center; }
+
+.contacts-form input {
+  border: 1px solid #c4c4c4;
+  width: 225px;
+  height: 35px;
+  padding: 0 15px;
+  font-family: 'Acrom Medium';
+  margin-top: 20px; }
+
+.options {
+  border: 1px solid #c4c4c4;
+  width: 225px;
+  height: 37px;
+  padding: 0 15px;
+  font-family: 'Acrom Medium';
+  margin-top: 20px; }
+
+.contacts-form input::placeholder {
+  color: #7a7a7a;
+  font-size: 11px; }
+
+.contacts-form textarea {
+  width: 747px;
+  height: 135px;
+  margin-top: 25px;
+  padding: 15px;
+  font-family: 'Acrom Medium'; }
+
+.contacts-form button {
+  font-family: 'Acrom Medium';
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  box-shadow: 4px 3px 7px 1px rgba(122, 122, 122, 0.28);
+  border-radius: 3px;
+  background-color: #6eb0f2;
+  border: none;
+  outline: none;
+  width: 250px;
+  height: 45px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer; }
+
+.info {
+  display: flex;
+  width: 100%;
+  background-color: #f5f5f5;
+  justify-content: space-between;
+  align-items: center; }
+  .info-contacts {
+    margin: 0 auto;
+    margin-right: 150px; }
+    .info-contacts__h3 {
+      font-family: 'Acrom Extra Bold';
+      text-transform: uppercase;
+      color: #7a7a7a;
+      font-size: 25px; }
+    .info-contacts__desc {
+      font-family: 'Acrom Medium';
+      color: #7a7a7a;
+      font-size: 10px;
+      width: 200px;
+      margin-top: 15px; }
+    .info-contacts__info {
+      font-family: 'Acrom Medium';
+      color: #7a7a7a;
+      margin-top: 14px;
+      font-size: 14px;
+      text-transform: uppercase; }
+
+.googlemap {
+  background-image: url("../img/maps.png");
+  width: 700px;
+  height: 600px; }
+
+.footer {
+  background-color: #6eb0f2; }
+
+.border {
+  width: 181px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #6aaef3;
+  text-align: center; }
+  .border img {
+    margin-top: -20px; }
+
+.sectionHeader {
+  color: #6eb0f2;
+  text-transform: uppercase;
+  font-family: 'Acrom Extra Bold';
+  text-align: center;
+  font-size: 36px;
+  margin: 0 auto; }
+
+.sectionMainText {
+  font-family: 'Acrom Medium';
+  width: 800px;
+  color: #7a7a7a;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px; }
+
+.arrowLeft, .arrowRight {
+  width: 21px;
+  height: 39px;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+
+.arrowLeft {
+  background-image: url("../img/arrowleft.svg"); }
+
+.arrowRight {
+  background-image: url("../img/arrowright.svg"); }
+
+.borderbtm {
+  width: 200px;
+  position: relative;
+  bottom: -25px;
+  margin: 0 auto;
+  height: 5px;
+  background-color: #70abe6; }
+
+.bordernews {
+  width: 185px;
+  position: relative;
+  bottom: 10px;
+  margin: 0 auto;
+  height: 15px;
+  background-color: #70abe6; }

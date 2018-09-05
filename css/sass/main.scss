@@ -1,0 +1,82 @@
+@import 'fonts';
+@import 'reset';
+@import 'header';
+@import 'mainSection';
+@import 'services';
+@import 'howwork';
+@import 'specialist';
+@import 'countSection';
+@import 'aboutspeak';
+@import 'news';
+@import 'contacts';
+@import 'info';
+@import 'footer';
+
+.border {
+	width: 181px;
+	height: 2px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: #6aaef3;
+	text-align: center;
+
+	img {
+		margin-top: -20px;
+
+	}
+}
+
+.sectionHeader {
+		color: #6eb0f2;
+		text-transform: uppercase;
+		font-family: 'Acrom Extra Bold';
+		text-align: center;
+		font-size: 36px;
+		margin: 0 auto;
+}
+
+.sectionMainText {
+		font-family: 'Acrom Medium';
+		width: 800px;
+		color: #7a7a7a;
+		margin: 0 auto;
+		margin-top: 30px;
+		font-size: 14px;
+		text-align: center;
+		line-height: 20px;
+}
+
+%arrow {
+	width: 21px;
+	height: 39px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.arrowLeft {
+	@extend %arrow;
+	background-image: url('../img/arrowleft.svg');
+}
+
+.arrowRight {
+	@extend %arrow;
+	background-image: url('../img/arrowright.svg');
+}
+
+  .borderbtm {
+    width: 200px;
+    position: relative;
+    bottom: -25px;
+    margin: 0 auto;
+    height: 5px;
+    background-color: #70abe6;
+  }
+
+  .bordernews {
+  	width: 185px;
+  	position: relative;
+  	bottom: 10px;
+  	margin: 0 auto;
+    height: 15px;
+    background-color: #70abe6;
+  }

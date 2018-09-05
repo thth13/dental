@@ -1,0 +1,50 @@
+.specialist {
+	&-list {
+		margin-top: 60px;
+		// margin-left: 260px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 50px;
+		// border: 1px solid black;
+	}
+
+	&-item {
+		margin-right: 40px;
+		// margin-left: 40px;
+		width: 275px;
+		height: 355px;
+		box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.09);
+		background-size: 275px;
+		background-repeat: no-repeat;
+
+		&__info {
+			margin-top: 290px;
+			text-align: center;
+		}
+
+		&__name {
+			color: #6eb0f2;
+			font-family: 'Acrom Extra Bold';
+			text-transform: uppercase;
+		}
+
+		&__position {
+			margin-top: 10px;
+			font-family: 'Acrom Medium';
+			color: #7a7a7a;
+		}
+	}
+
+	&-photo1 {
+		background-image: url('../img/spec1.png');
+	}
+
+	&-photo2 {
+		background-image: url('../img/spec2.png');
+	}
+
+	&-photo3 {
+		background-image: url('../img/spec3.png');
+	}
+}

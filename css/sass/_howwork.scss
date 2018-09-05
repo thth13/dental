@@ -1,0 +1,23 @@
+.howwork {
+	background-color: #f5f5f5;
+	width: 100%;
+	min-height: 725px;
+	margin-bottom: 60px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+
+	&-slider {
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		// border: 1px solid black;
+
+		&__image {
+			width: 750px;
+			margin: 0 40px;
+		}
+	}
+}

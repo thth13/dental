@@ -1,0 +1,48 @@
+.aboutspeak {
+	&-items {
+		display: flex;
+		justify-content: center;
+		margin-top: 50px;
+		align-items: center;
+		margin-bottom: 100px;
+	}
+
+	&-item {
+		margin-top: 12px;
+	  width: 270px;
+	  min-height: 150px;
+	  margin-right: 10px;
+	  margin-left: 10px;
+	  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.16); 
+    border-bottom: 5px solid #70abe6;
+    padding: 0 50px;
+    padding-bottom: 20px;
+		
+		&__name {
+			 color: #6eb0f2;
+	    font-size: 16px;
+	    margin-left: -75px;
+	    font-family: 'Acrom Extra Bold';
+	    text-transform: uppercase;
+	    display: inline-block;
+	    transform: translate(0%, -180%);
+		}
+
+		&__text {
+			color: #7a7a7a;
+	    font-family: 'Acrom Medium';
+	    font-size: 11px; 
+	    margin-top: -5px;
+		}
+
+		&__image {
+			border: 1px solid #70abe6;
+	    border-radius: 50%;
+	    position: relative;
+	    width: 25%;
+	    top: -15px;
+	    left: 50%;
+	    transform: translate(-50%, 0);
+		}
+	}
+}

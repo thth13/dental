@@ -1,0 +1,32 @@
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 23px;
+
+	&-logo {
+		font-size: 30px;
+		color: #6eb0f2;
+		font-family: 'Acrom Extra Bold';
+		text-transform: uppercase;
+		margin-bottom: 0;
+		margin-right: 4.7em;
+
+		&__image {
+			width: 26px;
+		}
+	}
+
+	&-list {
+		list-style: none;
+		color: #6eb0f2;
+		font-family: 'Acrom Extra Bold';
+		text-transform: uppercase;
+
+		&__item {
+			margin-right: 23px;
+			display: inline-block;
+			cursor: pointer;
+		}
+	}
+}
